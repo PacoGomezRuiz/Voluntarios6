@@ -14,8 +14,8 @@ public class Ejercicio1 {
 		
 		System.out.println("Las cifras del número "+num+" son:");
 		System.out.println("Primera cifra: "+primera);
-		System.out.println("Primera cifra: "+segunda);
-		System.out.println("Primera cifra: "+tercera);
+		System.out.println("Segunda cifra: "+segunda);
+		System.out.println("Tercera cifra: "+tercera);
 
 	}
 

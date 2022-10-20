@@ -3,7 +3,7 @@ public class Ejercicio3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Escribe un carácter");
+		System.out.println("Escribe un carácter (Letra): ");
 		Scanner entrada = new Scanner(System.in);
 		char caracter = entrada.next().charAt(0);
 		if(Character.isUpperCase(caracter)) {
