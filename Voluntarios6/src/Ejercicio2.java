@@ -5,11 +5,9 @@ public class Ejercicio2 {
 		Scanner entrada = new Scanner(System.in);
 		int dia = entrada.nextInt();
 		System.out.println("ahora el mes: (formato xx)");
-		Scanner entrada2 = new Scanner(System.in);
-		int mes = entrada2.nextInt();
+		int mes = entrada.nextInt();
 		System.out.println("y por último el año ( formato xxxx)");
-		Scanner entrada3 = new Scanner(System.in);
-		int nac = entrada3.nextInt();
+		int nac = entrada.nextInt();
 		int suma = dia+mes+nac;
 		int suma1 = suma/1000;
 		int suma2 = suma/100%10;
