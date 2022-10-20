@@ -9,8 +9,8 @@ public class Ejercicio2 {
 		int mes = entrada2.nextInt();
 		System.out.println("y por Ãºltimo el aÃ±o ( formato xxxx)");
 		Scanner entrada3 = new Scanner(System.in);
-		int año = entrada3.nextInt();
-		int suma = dia+mes+año;
+		int nac = entrada3.nextInt();
+		int suma = dia+mes+nac;
 		int suma1 = suma/1000;
 		int suma2 = suma/100%10;
 		int suma3 = suma/10%10;
